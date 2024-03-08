@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Real State</title>
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontawesome cdn link  -->
+    <script src="https://kit.fontawesome.com/9164f846bd.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrao style shet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+</head>
+
+<body>
+
+    <!-- --------- HEADER --------------- -->
+
+    <nav id="navbar" class="navbar navbar-expand-sm">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo.png" alt="logo detail">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-main">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-main">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- --------- CAROUSEL IMAGES --------------- -->
+
+    <section class="banner">
+        <div class="owl-carousel owl-theme carousel-sliders">
+            <div class="item" style="background-image: url(images/slide1.jpg);">
+                <div class="overlay-bg cover-full"></div>
+                <div class="container">
+                    <div class="caption">
+                        <h1 class="caption-heading">The perfect place for your family.</h1>
+                        <a href="#" class="btn btn-secondary">View More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(images/slide2.jpg);">
+                <div class="overlay-bg cover-full"></div>
+                <div class="container">
+                    <div class="caption">
+                        <h1 class="caption-heading">The perfect place for your family.</h1>
+                        <a href="#" class="btn btn-secondary">View More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(images/slide3.jpg);">
+                <div class="overlay-bg cover-full"></div>
+                <div class="container">
+                    <div class="caption">
+                        <h1 class="caption-heading">The perfect place for your family.</h1>
+                        <a href="#" class="btn btn-secondary">View More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom-nav owl-nav"></div>
+        </div>
+    </section>
+
+    <!-- --------- ABOUT SECTION --------------- -->
+
+    <section class="about" id="about">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">About Us</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, itaque quasi esse,
+                            aliquid consectetur provident nemo ab sequi impedit fugiat animi ad nam? Quaerat a nulla
+                            accusamus ut consequuntur ducimus aliquid ipsum animi sed illum</p>
+                        <img src="images/about.jpg" class="w-100 p-3">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="about-content">
+                        <ul>
+                            <li>
+                                <!-- icon -->
+                                <i class="fas fa-trophy"></i>
+                                <h4>Subtitle here</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consectetur.
+                                </p>
+                            </li>
+
+                            <li>
+                                <!-- icon -->
+                                <i class="fas fa-trophy"></i>
+                                <h4>Subtitle here</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consectetur.
+                                </p>
+                            </li>
+
+                            <li>
+                                <!-- icon -->
+                                <i class="fas fa-trophy"></i>
+                                <h4>Subtitle here</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consectetur.
+                                </p>
+                            </li>
+
+                            <li>
+                                <!-- icon -->
+                                <i class="fas fa-trophy"></i>
+                                <h4>Subtitle here</h4>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consectetur.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- SERVICES SECTION --------------- -->
+
+    <section class="services" id="services">
+        <div class="row">
+            <div class="col-md-4 box-image">
+                <div class="image cover-full transition" style="background-image: url(images/service1.jpg);"></div>
+                <div class="shadow cover-full transition"></div>
+                <div class="desc center">
+                    <h4>Title Here</h4>
+                    <a href="#" class="btn-secondary">View More</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 box-image">
+                <div class="image cover-full transition" style="background-image: url(images/service3.jpg);"></div>
+                <div class="shadow cover-full transition"></div>
+                <div class="desc center">
+                    <h4>Title Here</h4>
+                    <a href="#" class="btn-secondary">View More</a>
+                </div>
+            </div>
+
+            <div class="col-md-4 box-image">
+                <div class="image cover-full transition" style="background-image: url(images/service2.jpg);"></div>
+                <div class="shadow cover-full transition"></div>
+                <div class="desc center">
+                    <h4>Title Here</h4>
+                    <a href="#" class="btn-secondary">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- PROJECT SECTION --------------- -->
+
+    <section id="projects" class="projects">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">Projects</h1>
+            <div class="row">
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url(images/pro1.jpg);"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Title Project</h4>
+                            <a href="#" class="btn-secondary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url(images/pro2.jpg);"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Title Project</h4>
+                            <a href="#" class="btn-secondary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url(images/pro3.jpg);"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Title Project</h4>
+                            <a href="#" class="btn-secondary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url(images/pro4.jpg);"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Title Project</h4>
+                            <a href="#" class="btn-secondary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url(images/pro5.jpg);"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Title Project</h4>
+                            <a href="#" class="btn-secondary">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-6">
+                    <div class="box-image">
+                        <div class="image cover-full transition" style="background-image: url(images/pro6.jpg);"></div>
+                        <div class="shadow cover-full transition"></div>
+                        <div class="desc center">
+                            <h4>Title Project</h4>
+                            <a href="#" class="btn-secondary">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- TESTIMONIAL SECTION --------------- -->
+
+    <section class="testimonials" id="testimonials">
+        <div class="container pt-5 pb-5">
+            <h1 class="section-title">What's our customer say</h1>
+            <div class="owl-carousel owl-theme carousel-testimonials">
+                <div class="item testimonial">
+                    <img src="images/parent1.png" class="transition">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quidem deserunt, id dicta voluptates magnam?</p>
+                        <h4>David Warner</h4>
+                        <h5>CEO Facebook</h5>
+                    </div>
+                </div>
+
+                <div class="item testimonial">
+                    <img src="images/parent2.png" class="transition">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quidem deserunt, id dicta voluptates magnam?</p>
+                        <h4>Alex Carry</h4>
+                        <h5>CEO Netflix</h5>
+                    </div>
+                </div>
+                <div class="item testimonial">
+                    <img src="images/parent3.png" class="transition">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quidem deserunt, id dicta voluptates magnam?</p>
+                        <h4>Travis Head</h4>
+                        <h5>CEO Instagram</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- CONTACT SECTION --------------- -->
+
+    <section class="contacts" id="contacts">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="conatct-desc">
+                        <h1 class="mb-5">Ready To Start Your Project?</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam fugiat molestiae sint voluptates deleniti</p>
+                    </div>
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" id="" placeholder="Your Name">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" id="" placeholder="Your Email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" id="" placeholder="Your Number">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="" id="" placeholder="Subject">
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------- FOOTER SECTION --------------- -->
+
+    <footer class="footer footer1">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <img src="images/logo.png" class="foot-logo">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 foot-col mb-2">
+                            <h4>Title</h4>
+                            <p>Info contact here <br>
+                                Phone: 3123977717 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 foot-col mb-2">
+                            <h4>Title</h4>
+                            <p><a href="#">Blog</a></p>
+                            <p><a href="#">Articles</a></p>
+                            <p><a href="#">Privacy</a></p>
+                            <p><a href="#">Contact</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 foot-col mb-2">
+                            <h4>Title</h4>
+                            <p><a href="#">About</a></p>
+                            <p><a href="#">Services</a></p>
+                            <p><a href="#">Project</a></p>
+                            <p><a href="#">Testimonials</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer footer2">
+        <div class="container pt-3 pb-2">
+            <div class="row">
+                <div class="col-md-8 foot-bottom-text">
+                    <p>Privacy Policy / Sample Website Educational Purpose - Sardar Nazeer © 2023 / All Right Reserved</p>
+                </div>
+                <div class="col-md-4 social-links content-right">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- javascript -->
+
+    <!-- jquerry link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- owl js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- js link  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
